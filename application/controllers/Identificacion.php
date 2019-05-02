@@ -15,10 +15,12 @@ class Identificacion extends CI_Controller
         // invocar el modelo
         $this->load->model("usuarios_model");
 
+        /*
         if (!$this->session->userdata('id')) 
         {
             redirect('usuarios');
         }
+        */
     }
 
     public function index()

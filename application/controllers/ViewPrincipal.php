@@ -17,10 +17,12 @@ class ViewPrincipal extends CI_Controller
         // invocar el modelo
         $this->load->model("usuarios_model");
 
+        /*
         if (!$this->session->userdata('id')) 
         {
-            redirect('usuarios');
+            redirect('viewprincipal');
         }
+        */
     }
 
     public function index()
